@@ -285,3 +285,4 @@ D:\Visual studio\Project1\Project1\bin\Debug\net8.0\Microsoft.OData.Edm.dll
 D:\Visual studio\Project1\Project1\bin\Debug\net8.0\Microsoft.OData.ModelBuilder.dll
 D:\Visual studio\Project1\Project1\bin\Debug\net8.0\Microsoft.Spatial.dll
 D:\Visual studio\Project1\Project1\obj\Debug\net8.0\Project1.MvcApplicationPartsAssemblyInfo.cs
+D:\Visual studio\Project1\Project1\obj\Debug\net8.0\Project1.sourcelink.json

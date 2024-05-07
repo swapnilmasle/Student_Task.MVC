@@ -1,4 +1,6 @@
-﻿var variable = {
+﻿const { data } = require("jquery");
+
+var variable = {
     FirstName: "#firstName",
     LastName: "#lastName",
     Major: "#major",
@@ -17,6 +19,7 @@
     studentid: "#StudentId",
     btnSubmit: "#submit",
     Update: "#Update",
+
 
     // @* Information About Your Complaints *@
 
@@ -79,18 +82,32 @@ function getPreferredContactMethod() {
 
 $(document).ready(function () {
 
-    
-        $("#IssuesOccurredDate").datepicker({
-            dateFormat: 'dd-mm-yy',
-            changeMonth: true,
-            changeYear: true
-
-        });
-    
-    var id = parseInt($('#StudentId').val(), 0);  
+    //$(variable.Country).on('change', function () {
+    //    var countryId = $(variable.Country).val();
+    //    $.ajax({
+    //        url: 'https://localhost:7210/api/Student/cities/' + countryId,
+    //        type: 'Get',
+    //        success: function (response) {
+    //            var citydropdown = $(variable.City);
+    //            response.forEach(function (list) {
+    //                citydropdown.append($('<option>', {
+    //                    value: list.cityId,
+    //                    text: list.cityName
+    //                }));
+    //            });
+                
+    //        },
+    //        error: function (xhr, status, error) {
+    //            console.error(xhr.responseText);
+    //        }
+    //    });
+    //});
+  
+    console.log('love');
+    var id = parseInt($('#StudentId').val(), 0);
     $.ajax({
-       
-        url: 'https://localhost:7210/api/Student/GetById?id='+ id,
+
+        url: 'https://localhost:7210/api/Student/GetById?id=' + id,
         type: 'Get',
         success: function (data) {
             console.log(data);
@@ -102,7 +119,7 @@ $(document).ready(function () {
             $(variable.StreetAddressLines2).val(data.streetAddress2);
             $(variable.Country).val(data.countryId);
             var Cid = data.countryId;
-            console.log(Cid);
+
             $(variable.City).val(data.cityId);
             $(variable.Region).val(data.region);
             $(variable.PostalZip).val(data.zipCode);
@@ -111,17 +128,24 @@ $(document).ready(function () {
             $(variable.EmailCheckbox).prop('checked', data.preferredContactCheackBox === 'Email');
             $(variable.PhoneCheckbox).prop('checked', data.preferredContactCheackBox === 'Phone');
             $(variable.MailCheckbox).prop('checked', data.preferredContactCheackBox === 'USMail');
+            var datetimeString = data.issuesOccurredDate;
+            var dateString = datetimeString.substring(0, 10); // Extract the date part (first 10 characters)
+            console.log(dateString); // Output: "2024-01-05"
 
-            $(variable.IssuesOccurredDate).val(data.issuesOccurredDate);
-            $(variable.NameofPersonsInvolved).val(data.nameofPersonInvolved); 
-            $(variable.ComplaintDetialArea).val(data.complaintDetialArea);       
+
+            $(variable.IssuesOccurredDate).val(dateString);
+            $(variable.NameofPersonsInvolved).val(data.nameofPersonInvolved);
+            $(variable.ComplaintDetialArea).val(data.complaintDetialArea);
             $(variable.ResolutionComplaint).val(data.resolveComplaintArea);
             $(variable.ResloveComplaintAttempts).val(data.priorattemptsArea);
             $(variable.resolutionSeek).val(data.resolutionArea);
             $(variable.otherInformation).val(data.otherInformationArea);
-           
 
-            ///Binding Country in dropdown
+
+
+            var cityDropdown = $('#CityId');
+            cityDropdown.val(data.countryId);
+            //Binding Country in dropdown
             $.ajax({
                 url: 'https://localhost:7210/api/Student/countries',
                 type: 'GET',
@@ -168,218 +192,51 @@ $(document).ready(function () {
                     console.error(xhr.responseText);
                 }
             });
-            $(variable.Country).on('change', function () {
-                var countryId = $(this).val();
-                $(variable.City).empty(); // Clear existing options
-                if (countryId) {
-                    $.ajax({
-                        url: 'https://localhost:7210/api/Student/cities/',
-                        type: 'GET',
-                        success: function (data) {
-                            if (data && data.length > 0) {
-                                $(variable.City).append($('<option>', {
-                                    value: '',
-                                    text: '-- Select City --'
-                                }));
-                                $.each(data, function (index, city) {
-                                    $(variable.City).append($('<option>', {
-                                        value: city.cityId,
-                                        text: city.cityName
-                                    }));
-                                });
-                            } else {
-                                $(variable.City).append($('<option>', {
-                                    value: '',
-                                    text:
-                                        '-- No Cities --'
-                                }));
-                            }
-                        },
-                        error: function (xhr, status, error) {
-                            console.error(xhr.responseText);
-                        }
-                    });
-                } else {
-                    $(variable.City).append($('<option>', {
-                        value: '',
-                        text: '-- Select Country First --'
-                    }));
-                }
+            //$(variable.Country).on('change', function () {
+            //    var countryId = $(this).val();
 
-            });
+            //    $(variable.City).empty(); // Clear existing options
+            //    if (countryId) {
+            //        $.ajax({
+            //            url: 'https://localhost:7210/api/Student/cities/' + Cid,
+            //            type: 'GET',
+            //            success: function (data) {
+            //                if (data && data.length > 0) {
+            //                    $(variable.City).append($('<option>', {
+            //                        value: '',
+            //                        text: '-- Select City --'
+            //                    }));
+            //                    $.each(data, function (index, city) {
+            //                        $(variable.City).append($('<option>', {
+            //                            value: city.cityId,
+            //                            text: city.cityName
+            //                        }));
+            //                    });
+            //                    cityDropdown.val(data.cityId);
+            //                } else {
+            //                    $(variable.City).append($('<option>', {
+            //                        value: '',
+            //                        text:
+            //                            '-- No Cities --'
+            //                    }));
+            //                }
+            //            },
+            //            error: function (xhr, status, error) {
+            //                console.error(xhr.responseText);
+            //            }
+            //        });
+            //    } else {
+            //        $(variable.City).append($('<option>', {
+            //            value: '',
+            //            text: '-- Select Country First --'
+            //        }));
+            //    }
+
+            //});
         }
 
     })
 
-    var operation = 'insert';
-
-    function toggleButton() {
-        if (operation === 'insert') {
-            $(variable.btnSubmit).text('Save');
-        } else if (operation === 'update') {
-            $(variable.Update).text('Update');
-        }
-    }
-
-    // Bind click event to update button
-    $(variable.Update).on('click', function () {
-        operation = 'update';
-        handleOperation();
-        var StudentUpdateDto = {
-            firstName: $(variable.FirstName).val(),
-            LastName: $(variable.LastName).val(),
-            Major: $(variable.Major).val(),
-            ExpectedYearGraduation: $(variable.ExpectedgraduationYear).val(),
-            StreetAddress1: $(variable.StreetAddress1).val(),
-            StreetAddress2: $(variable.StreetAddressLines2).val(),
-            CountryId: parseInt($(variable.Country).val()),
-            CityId: parseInt($(variable.City).val()),
-            Region: $(variable.Region).val(),
-            ZipCode: $(variable.PostalZip).val(),
-            Email: $(variable.Email).val(),
-            PhoneNumber: $(variable.Phone).val(),
-            PreferredContactCheackBox: getPreferredContactMethod(),
-            IssuesOccurredDate: $(variable.IssuesOccurredDate).val(),
-            NameofPersonInvolved: $(variable.NameofPersonsInvolved).val(),
-            ComplaintDetialArea: $(variable.ComplaintDetialArea).val(),
-            ResolveComplaintArea: $(variable.ResolutionComplaint).val(),
-            PriorAttemptsArea: $(variable.ResloveComplaintAttempts).val(),
-            ResolutionArea: $(variable.resolutionSeek).val(),
-            OtherInformationArea: $(variable.otherInformation).val(),
-            StudentId: parseInt($(variable.studentid).val()),
-            
-        };
-        console.log(StudentUpdateDto);
-       // toggleButton();
-        $.ajax({
-            'async': false,
-            'global': false,
-            url: 'https://localhost:7210/api/Student/UpdateStudent',
-            contentType: 'application/json; charset=utf-8', // Specify the content type
-            type: 'PUT',
-            //dataType: "json",
-            data: JSON.stringify(StudentUpdateDto ), 
-           // data: ({ studentUpdateDto: studentDetails }),
-            success: function (response) {
-                if (response != null) {
-                    alert("updated Succefully");
-                    window.location.href = '/StudentComplaint/Index';
-                }
-
-            },
-            error: function (xhr, status, error) {
-                console.error();
-                alert("api error came");
-            }
-        });
-
-    });
-    function handleOperation() {
-        var student = {
-            FirstName: $(variable.FirstName).val(),
-            LastName: $(variable.LastName).val(),
-            Major: $(variable.Major).val(),
-            ExpectedYearGraduation: $(variable.ExpectedgraduationYear).val(),
-            StreetAddress1: $(variable.StreetAddress1).val(),
-            StreetAddress2: $(variable.StreetAddressLines2).val(),
-            CountryId: $(variable.Country).val(),
-            CityId: $(variable.City).val(),
-            Region: $(variable.Region).val(),
-            ZipCode: $(variable.PostalZip).val(),
-            Email: $(variable.Email).val(),
-            PhoneNumber: $(variable.Phone).val(),
-            PreferredContactCheackBox: getPreferredContactMethod(),
-            IssuesOccurredDate: $(variable.IssuesOccurredDate).val(),
-            NameofPersonInvolved: $(variable.NameofPersonsInvolved).val(),
-            ComplaintDetialArea: $(variable.ComplaintDetialArea).val(),
-            ResolveComplaintArea: $(variable.ResolutionComplaint).val(),
-            PriorAttemptsArea: $(variable.ResloveComplaintAttempts).val(),
-            ResolutionArea: $(variable.resolutionSeek).val(),
-            OtherInformationArea: $(variable.otherInformation).val(),
-            StudentId: $(variable.studentid).val(),
-            IsDeleted: false
-        };
-        var isValid = true;
-        var value = validate();
-        if (value == false) {
-            //Swal.fire({
-            //    position: "top-end",
-            //    icon: "error",
-            //    title: "Please fill Form",
-            //    showConfirmButton: false,
-            //    timer: 1800
-            //});
-        }
-
-
-        function validate() {
-
-            $('.error').text('');
-
-
-            if (student.FirstName == '') {
-                $(variable.ErrormesssagefirstName).text("Name is Mandatory").show();
-                $(variable.ErrorFirstIcons).show();
-                isValid = false;
-            }
-            if (student.LastName == '') {
-                $(variable.ErrormessageLastname).text("LastName is Mandatory").show();
-                $(variable.ErrorlastIcons).show();
-                isValid = false;
-
-            }
-            if (student.Major == '') {
-                $(variable.Errormsgmajor).text("Field is Mandatory").show();
-                $(variable.ErrorIconsmajor).show();
-                isValid = false;
-
-            }
-            if (student.ExpectedYearGraduation == '') {
-                $(variable.expectedgraduationYearErrormsg).text("Field is Mandatory").show();
-                $(variable.expectedgraduationYearErrorIcons).show();
-                isValid = false;
-
-            }
-            if (student.StreetAddress1 == '') {
-                $(variable.streetAddress1Errormsg).text("Field is Mandatory").show();
-                $(variable.streetAddress1ErrorIcons).show();
-                isValid = false;
-
-            }
-            if (student.StreetAddress2 == '') {
-                $(variable.streetAddress2Errormsg).text("Field is Mandatory").show();
-                $(variable.streetAddress2ErrorIcons).show();
-                isValid = false;
-
-            }
-            if (student.Region == '') {
-                $(variable.regionErrormsg).text("Field is Mandatory").show();
-                $(variable.regionErrorIcons).show();
-                isValid = false;
-
-            }
-            if (student.PostalZip == '') {
-                $(variable.postalZipErrormsg).text("Field is Mandatory").show();
-                $(variable.postalZipErrorIcons).show();
-                isValid = false;
-
-            }
-            if (student.Email == '') {
-                $(variable.emailErrormsg).text("Field is Mandatory").show();
-                $(variable.emailErrorIcons).show();
-                isValid = false;
-
-            }
-            if (student.PhoneNumber == '') {
-                $(variable.phoneErrormsg).text("Field is Mandatory").show();
-                $(variable.phoneErrorIcons).show();
-                isValid = false;
-
-            }
-
-            return isValid;
-
-        }
         $(variable.FirstName).on('input', function () {
             var name = $(variable.FirstName).val();
             if (!/^[a-zA-Z\s]+$/.test(name)) {
@@ -489,54 +346,236 @@ $(document).ready(function () {
                 $(variable.phoneErrorIcons).hide();
             }
         });
+    $('.status-item input[type="checkbox"]').change(function () {
+        var status = $('status-item input[type = "checkbox"]:checked');
+
+        if ($("#emailCheckbox").prop("checked")) {
+            status += 'Email,';
+
+        }
 
 
+        if ($("#phoneCheckbox").prop("checked")) {
+            status += 'Phone,';
+        }
 
+        if ($("#mailCheckbox").prop("checked")) {
+            status += 'Mail,';
+        }
+        status = status.replace(/,$/, '');
 
-        $('.status-item input[type="checkbox"]').change(function () {
-            var status = $('status-item input[type = "checkbox"]:checked');
+        if (status === '') {
+            $("#statuserror").text('Please select any one status').show();
+            $("#statusicon").show();
+        }
+        else if (status.indexOf(',') !== -1) {
+            $("#statuserror").text('Please select only one Cheackbox').show();
+            $("#statusicon").show();
+        }
+        else {
+            $("#statuserror").hide();
+            $("#statusicon").hide();
+        }
+    });
+    
+        $("#IssuesOccurredDate").datepicker({
+            dateFormat: 'dd-mm-yy',
+            changeMonth: true,
+            changeYear: true
 
-            if ($("#emailCheckbox").prop("checked")) {
-                status += 'Email,';
+        });
+    
+  
 
-            }
+    var operation = 'insert';
 
+    function toggleButton() {
+        if (operation === 'insert') {
+            $(variable.btnSubmit).text('Save');
+        } else if (operation === 'update') {
+            $(variable.Update).text('Update');
+        }
+    }
 
-            if ($("#phoneCheckbox").prop("checked")) {
-                status += 'Phone,';
-            }
+    // Bind click event to update button
+    $(variable.Update).on('click', function () {
+        operation = 'update';
+        handleOperation();
+        var StudentUpdateDto = {
+            firstName: $(variable.FirstName).val(),
+            LastName: $(variable.LastName).val(),
+            Major: $(variable.Major).val(),
+            ExpectedYearGraduation: $(variable.ExpectedgraduationYear).val(),
+            StreetAddress1: $(variable.StreetAddress1).val(),
+            StreetAddress2: $(variable.StreetAddressLines2).val(),
+            CountryId: parseInt($(variable.Country).val()),
+            CityId: parseInt($(variable.City).val()),
+            Region: $(variable.Region).val(),
+            ZipCode: $(variable.PostalZip).val(),
+            Email: $(variable.Email).val(),
+            PhoneNumber: $(variable.Phone).val(),
+            PreferredContactCheackBox: getPreferredContactMethod(),
+            IssuesOccurredDate: $(variable.IssuesOccurredDate).val(),
+            NameofPersonInvolved: $(variable.NameofPersonsInvolved).val(),
+            ComplaintDetialArea: $(variable.ComplaintDetialArea).val(),
+            ResolveComplaintArea: $(variable.ResolutionComplaint).val(),
+            PriorAttemptsArea: $(variable.ResloveComplaintAttempts).val(),
+            ResolutionArea: $(variable.resolutionSeek).val(),
+            OtherInformationArea: $(variable.otherInformation).val(),
+            StudentId: parseInt($(variable.studentid).val()),
+            
+        };
+        console.log(StudentUpdateDto);
+       // toggleButton();
+        $.ajax({
+            'async': false,
+            'global': false,
+            url: 'https://localhost:7210/api/Student/UpdateStudent',
+            contentType: 'application/json; charset=utf-8', // Specify the content type
+            type: 'PUT',
+            //dataType: "json",
+            data: JSON.stringify(StudentUpdateDto ), 
+           // data: ({ studentUpdateDto: studentDetails }),
+            success: function (response) {
+                if (response != null) {
+                    alert("updated Succefully");
+                    window.location.href = '/StudentComplaint/Index';
+                }
 
-            if ($("#mailCheckbox").prop("checked")) {
-                status += 'Mail,';
-            }
-            status = status.replace(/,$/, '');
-
-            if (status === '') {
-                $("#statuserror").text('Please select any one status').show();
-                $("#statusicon").show();
-            }
-            else if (status.indexOf(',') !== -1) {
-                $("#statuserror").text('Please select only one Cheackbox').show();
-                $("#statusicon").show();
-            }
-            else {
-                $("#statuserror").hide();
-                $("#statusicon").hide();
+            },
+            error: function (xhr, status, error) {
+                console.error();
+                alert("api error came");
             }
         });
-        var cheack = validate_form()
-        function validate_form() {
-            valid = true;
 
-            if ($('input[type=checkbox]:checked').length == 0) {
+    });
+   
+    var cheack = validate_form()
+    function validate_form() {
+        valid = true;
 
-                $("#statuserror").text('Please select Atlest one Cheakbox').show();
-                $("#statusicon").show();
-                valid = false;
+        if ($('input[type=checkbox]:checked').length == 0) {
+
+            $("#statuserror").text('Please select Atlest one Cheakbox').show();
+            $("#statusicon").show();
+            valid = false;
+        }
+
+        return valid;
+    }
+    function handleOperation() {
+        var student = {
+            FirstName: $(variable.FirstName).val(),
+            LastName: $(variable.LastName).val(),
+            Major: $(variable.Major).val(),
+            ExpectedYearGraduation: $(variable.ExpectedgraduationYear).val(),
+            StreetAddress1: $(variable.StreetAddress1).val(),
+            StreetAddress2: $(variable.StreetAddressLines2).val(),
+            CountryId: $(variable.Country).val(),
+            CityId: $(variable.City).val(),
+            Region: $(variable.Region).val(),
+            ZipCode: $(variable.PostalZip).val(),
+            Email: $(variable.Email).val(),
+            PhoneNumber: $(variable.Phone).val(),
+            PreferredContactCheackBox: getPreferredContactMethod(),
+            IssuesOccurredDate: $(variable.IssuesOccurredDate).val(),
+            NameofPersonInvolved: $(variable.NameofPersonsInvolved).val(),
+            ComplaintDetialArea: $(variable.ComplaintDetialArea).val(),
+            ResolveComplaintArea: $(variable.ResolutionComplaint).val(),
+            PriorAttemptsArea: $(variable.ResloveComplaintAttempts).val(),
+            ResolutionArea: $(variable.resolutionSeek).val(),
+            OtherInformationArea: $(variable.otherInformation).val(),
+            StudentId: $(variable.studentid).val(),
+            IsDeleted: false
+        };
+        var isValid = true;
+        var value = validate();
+        if (value == false) {
+            //Swal.fire({
+            //    position: "top-end",
+            //    icon: "error",
+            //    title: "Please fill Form",
+            //    showConfirmButton: false,
+            //    timer: 1800
+            //});
+        }
+
+
+        function validate() {
+
+            $('.error').text('');
+
+
+            if (student.FirstName == '') {
+                $(variable.ErrormesssagefirstName).text("Name is Mandatory").show();
+                $(variable.ErrorFirstIcons).show();
+                isValid = false;
+            }
+            if (student.LastName == '') {
+                $(variable.ErrormessageLastname).text("LastName is Mandatory").show();
+                $(variable.ErrorlastIcons).show();
+                isValid = false;
+
+            }
+            if (student.Major == '') {
+                $(variable.Errormsgmajor).text("Field is Mandatory").show();
+                $(variable.ErrorIconsmajor).show();
+                isValid = false;
+
+            }
+            if (student.ExpectedYearGraduation == '') {
+                $(variable.expectedgraduationYearErrormsg).text("Field is Mandatory").show();
+                $(variable.expectedgraduationYearErrorIcons).show();
+                isValid = false;
+
+            }
+            if (student.StreetAddress1 == '') {
+                $(variable.streetAddress1Errormsg).text("Field is Mandatory").show();
+                $(variable.streetAddress1ErrorIcons).show();
+                isValid = false;
+
+            }
+            if (student.StreetAddress2 == '') {
+                $(variable.streetAddress2Errormsg).text("Field is Mandatory").show();
+                $(variable.streetAddress2ErrorIcons).show();
+                isValid = false;
+
+            }
+            if (student.Region == '') {
+                $(variable.regionErrormsg).text("Field is Mandatory").show();
+                $(variable.regionErrorIcons).show();
+                isValid = false;
+
+            }
+            if (student.PostalZip == '') {
+                $(variable.postalZipErrormsg).text("Field is Mandatory").show();
+                $(variable.postalZipErrorIcons).show();
+                isValid = false;
+
+            }
+            if (student.Email == '') {
+                $(variable.emailErrormsg).text("Field is Mandatory").show();
+                $(variable.emailErrorIcons).show();
+                isValid = false;
+
+            }
+            if (student.PhoneNumber == '') {
+                $(variable.phoneErrormsg).text("Field is Mandatory").show();
+                $(variable.phoneErrorIcons).show();
+                isValid = false;
+
             }
 
-            return valid;
+            return isValid;
+
         }
+    
+
+
+
+
+     
 
         // Send data to the server if validation passes
 

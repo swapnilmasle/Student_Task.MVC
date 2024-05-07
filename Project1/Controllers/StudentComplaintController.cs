@@ -24,6 +24,7 @@ namespace Project1.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IHttpClientFactory _clientFactory;
 
+
         public StudentComplaintController(IHttpClientFactory clientFactory ,IStudentRepositary studentRepositary,ApplicationDbContext context)
         {
             _studentRepositary = studentRepositary;

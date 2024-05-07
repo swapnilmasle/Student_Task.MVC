@@ -47,7 +47,7 @@ $(document).ready(function () {
        
         var id = parseInt($(this).attr('href')); //Extracting the id from href
         console.log(id);
-        window.location.href = '/StudentComplaint/DispalyViewPage?id=' + id
+        window.location.href ='/StudentComplaint/DispalyViewPage?id=' + id
             
 
     });
