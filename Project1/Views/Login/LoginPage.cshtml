@@ -1,0 +1,92 @@
+﻿@model Project1.Models.Registration;
+@{
+    Layout = null;
+}
+@if (TempData["RegistrationSuccess"] != null)
+{
+        <div class="alert alert-success">
+        @TempData["RegistrationSuccess"]
+
+        </div>
+}
+<h3>@TempData["message"]</h3>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - Login Page </title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Other CSS files or custom stylesheets -->
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/sweetalert2.min.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <form method="post"   asp-action="LoginPage" id="loginForm">
+            <br />
+            <h2 class="text-center mb-4" >Login Page</h2>
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <div class="alert alert-danger">
+                    @ViewBag.ErrorMessage
+                </div>
+            }
+                <br />
+                <div align="center">
+                    
+                    <div>
+                    <label for="Email">User Name/Email :</label>
+
+                       <input type="email" name="Email" id="email" />
+
+                </div>
+                    <span id="emailError" class="text-danger"></span>
+                <span  id="emailIcon"></span><br />
+                </div>
+                <div align="center" > 
+                    <div>
+                    <label for="password">Password :&emsp;&emsp;&emsp;&ensp;</label>
+                    <input type="password" name="password" id="password" />
+                    </div>                 
+                  <span id="passwordError" class="text-danger"></span>
+                <span id="PasswordIcon"></span>
+                </div>
+                <div align="center" >
+                    <br />
+                <button type="submit" onclick="displayAlert()" align="center" class="btn btn-primary"> Login</button>
+                    <a class="btn btn-success"  href="/User/RegistrationPage">Registration</a>
+                   
+                </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/sweetalert2.all.min.js"></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="~/js/Loginpage.js"></script>
+   
+ @*   @section Scripts{
+   <script>
+       function displayAlert() {
+           Swal.fire("Login Succefully");
+       }
+   </script> *@
+    
+    
+   }
+    
+
+   
+</body>
+</html>
+
+

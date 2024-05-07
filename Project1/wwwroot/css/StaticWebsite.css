@@ -1,0 +1,264 @@
+﻿.container {
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+    nav ul li {
+        display: inline;
+    }
+
+        nav ul li a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            padding: 14px 16px;
+            position: relative;
+            left: 143px;
+        }
+
+          /*  nav ul li a:hover {
+                background-color: #555;
+            }
+*/
+
+#background {
+    width: 100%;
+    height: 400px;
+}
+
+#image1 {
+    float: left;
+    margin-right: 10px;
+    position: absolute;
+    left: 261px;
+}
+
+#overlay-image {
+    position: absolute;
+    z-index: 1;
+    width: 74%;
+    height: 350px;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#heading {
+    position: absolute;
+    left: 375px;
+    top: 10px;
+    font-family: monospace;
+    font-style: italic;
+    font-size: x-large;
+}
+
+    #heading i {
+        font-family: 'Open Sans', sans-serif; /* Apply the same custom font to the <i> element */
+        font-style: italic; /* Make the font italic */
+        font-weight: 200;
+    }
+
+h5 {
+    position: absolute;
+    right: 171px;
+    top: 20px;
+    font-family: 'Open Sans', sans-serif; /* Specify the custom font */
+    font-size: 13px; /* Adjust the font size as needed */
+    font-weight: 500;
+}
+
+.custom-textbox {
+    width: 200px; /* Adjust the width as needed */
+}
+
+.newsletter-section {
+    position: absolute;
+    top: 575px;
+    left: 159px;
+}
+
+
+
+.newletter-section2 {
+    position: absolute;
+    right: 615px;
+    top: 581px;
+}
+.newletter-section4 {
+    position: absolute;
+    top: 1050px;
+    left: 162px;
+}
+
+
+    .newletter-section4 h6 {
+        font-style: italic;
+        font-family: system-ui;
+    }
+    .newletter-section4 img {
+        width: 199px;
+        position: absolute;
+        height: 103px;
+    }
+
+
+.newletter-section5 {
+    position: absolute;
+    top: 1099px;
+    left: 498px;
+}
+    .newletter-section5 h6 {
+        font-style: unset;
+        font-family: monospace;
+        font-size: larger;
+    }
+    .newletter-section5 p {
+        font-family: monospace;
+        font-size: medium;
+    }
+
+
+    .text {
+        position: relative;
+        right: -444px;
+        top: 40px;
+        width: 556px;
+    }
+
+#OurTea {
+    position: absolute;
+    top: -5px;
+    font-style: italic;
+    font-family: auto;
+    right: -79px;
+}
+
+.image4 {
+    position: absolute;
+    right: 533px;
+    margin: 240px;
+    left: 156px;
+}
+
+
+#img4 {
+    margin: 5px;
+    width: 142%;
+    height: 85px;
+    position: absolute;
+    right: -154px;
+    top: 25px;
+}
+
+.image3 {
+    position: absolute;
+    right: 330px;
+    margin: 244px;
+    left: 351px;
+}
+
+.image2 {
+    position: absolute;
+    right: 100px;
+    margin: 244px;
+}
+
+#Setimg4position {
+    width: 135px;
+    position: absolute;
+    top: 30px;
+    height: 90px;
+    left: 102px;
+}
+
+#Setpositionimg3 {
+    width: 284%;
+    height: 85px;
+    position: absolute;
+    right: -187px;
+    top: 30px;
+}
+#img4Paragraph {
+    position: absolute;
+    top: 133px;
+    width: 146px;
+    font-size: 10px;
+    left: 102px;
+}
+
+.image4 h6 {
+    position: absolute;
+    width: 76px;
+    left: 101px;
+    top: 2px;
+}
+
+.image3 h6 {
+    position: absolute;
+    width: 157px;
+    left: 97px;
+    top: 0px;
+}
+
+#img3Paragraph {
+    position: absolute;
+    top: 129px;
+    width: 141px;
+    font-size: 10px;
+    left: 101px;
+}
+
+/*  #Setpositionimg4{
+            margin: 5px;
+            width: 141%;
+            height: 84px;
+            position: absolute;
+            right: -15px;
+            top: 27px;
+        } */
+
+.image2 h6 {
+    padding: 3px;
+    position: relative;
+    right: -106px;
+    top: -4px;
+    width: 94px;
+}
+
+
+#img2Paragraph {
+    position: absolute;
+    top: 129px;
+    width: 137px;
+    font-size: 10px;
+    left: 106px;
+}
+.required:after {
+    content: "*";
+    color: red;
+}
+
+.btn-change {
+    background-color: limegreen;
+}
+
+#SetMapImage {
+    height: 116px;
+    position: absolute;
+    top: 1071px;
+    right: 183px;
+    width: 339px;
+}
+#example {
+    background-color:aquamarine;
+    position: relative;
+    bottom: -800px;
+}
+

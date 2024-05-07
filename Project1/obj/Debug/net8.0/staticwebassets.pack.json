@@ -1,0 +1,1277 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Project1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Project1.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\49",
+      "PackagePath": "staticwebassets\\Upload"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\Dhoni1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Dhoni1.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\Dummy Page.docx",
+      "PackagePath": "staticwebassets\\Upload\\Dummy Page.docx"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\Dummy Page.docxv1",
+      "PackagePath": "staticwebassets\\Upload\\Dummy Page.docxv1"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\Sunset.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Sunset.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\Test_Virat.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Test_Virat.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\Virat_Kohli.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Virat_Kohli.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg",
+      "PackagePath": "staticwebassets\\Upload\\depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\free-images.avif",
+      "PackagePath": "staticwebassets\\Upload\\free-images.avif"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\pexels-andrei-tanase-1271620.jpg",
+      "PackagePath": "staticwebassets\\Upload\\pexels-andrei-tanase-1271620.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\pexels-bri-schneiter-346529.jpg",
+      "PackagePath": "staticwebassets\\Upload\\pexels-bri-schneiter-346529.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\pexels-ian-turnell-709552.jpg",
+      "PackagePath": "staticwebassets\\Upload\\pexels-ian-turnell-709552.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\pexels-pixabay-147411.jpg",
+      "PackagePath": "staticwebassets\\Upload\\pexels-pixabay-147411.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\pexels-pixabay-36717.jpg",
+      "PackagePath": "staticwebassets\\Upload\\pexels-pixabay-36717.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\pexels-unknown-user-1646753.jpg",
+      "PackagePath": "staticwebassets\\Upload\\pexels-unknown-user-1646753.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\report_FILL0_wght400_GRAD0_opsz24.svg",
+      "PackagePath": "staticwebassets\\Upload\\report_FILL0_wght400_GRAD0_opsz24.svg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\Upload\\resume-sample.pdf",
+      "PackagePath": "staticwebassets\\Upload\\resume-sample.pdf"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\css\\boxicon.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\boxicon.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\css\\templatemo.css",
+      "PackagePath": "staticwebassets\\assets\\css\\templatemo.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\banner-bg-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-bg-01.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\banner-bg-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-bg-02.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\banner-bg-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-bg-03.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\banner-img-01.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-img-01.svg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\banner-img-02.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-img-02.svg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\feature-work-1-large.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-work-1-large.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\feature-work-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-work-1.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\feature-work-2-large.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-work-2-large.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\feature-work-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-work-2.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\feature-work-3-large.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-work-3-large.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\feature-work-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-work-3.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\feature-work-4-large.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-work-4-large.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\feature-work-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-work-4.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\joanna-kosinska-7ACuHoezUYk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\joanna-kosinska-7ACuHoezUYk-unsplash.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\our-work-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\our-work-01.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\our-work-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\our-work-02.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\our-work-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\our-work-03.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\our-work-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\our-work-04.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\our-work-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\our-work-05.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\our-work-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\our-work-06.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\pricing.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\pricing.svg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\recent-work-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\recent-work-01.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\recent-work-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\recent-work-02.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\recent-work-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\recent-work-03.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\recent-work-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\recent-work-04.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\recent-work-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\recent-work-05.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\recent-work-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\recent-work-06.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\related-post-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\related-post-01.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\related-post-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\related-post-02.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\related-post-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\related-post-03.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\services-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\services-01.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\services-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\services-02.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\services-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\services-03.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\services-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\services-04.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\services-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\services-05.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\services-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\services-06.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\services-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\services-07.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\services-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\services-08.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\team-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-01.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\team-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-02.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\team-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-03.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\team-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-04.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\team-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-05.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\team-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-06.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-01-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-01-small.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-01.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-02-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-02-small.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-02.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-03-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-03-small.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-03.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-04-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-04-small.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-04.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-05-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-05-small.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-05.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-06-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-06-small.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work-slide-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-slide-06.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\img\\work.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\work.svg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\js\\fslightbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\fslightbox.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\js\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.pkgd.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\js\\templatemo.js",
+      "PackagePath": "staticwebassets\\assets\\js\\templatemo.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\assets\\js\\templatemo.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\templatemo.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\css\\Edit.css",
+      "PackagePath": "staticwebassets\\css\\Edit.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\css\\FileUpload.css",
+      "PackagePath": "staticwebassets\\css\\FileUpload.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\css\\LoginPage.css",
+      "PackagePath": "staticwebassets\\css\\LoginPage.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\css\\RegistrationPage.css",
+      "PackagePath": "staticwebassets\\css\\RegistrationPage.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\css\\StaticWebsite.css",
+      "PackagePath": "staticwebassets\\css\\StaticWebsite.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\css\\Student.css",
+      "PackagePath": "staticwebassets\\css\\Student.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\css\\Upload .js",
+      "PackagePath": "staticwebassets\\css\\Upload .js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\images\\StaticPageimg\\Background (1).png",
+      "PackagePath": "staticwebassets\\images\\StaticPageimg\\Background (1).png"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\images\\StaticPageimg\\Image1.png",
+      "PackagePath": "staticwebassets\\images\\StaticPageimg\\Image1.png"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\images\\StaticPageimg\\Image3.png",
+      "PackagePath": "staticwebassets\\images\\StaticPageimg\\Image3.png"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\images\\StaticPageimg\\Image4.png",
+      "PackagePath": "staticwebassets\\images\\StaticPageimg\\Image4.png"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\images\\StaticPageimg\\Image5.png",
+      "PackagePath": "staticwebassets\\images\\StaticPageimg\\Image5.png"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\images\\StaticPageimg\\Image6Map.png",
+      "PackagePath": "staticwebassets\\images\\StaticPageimg\\Image6Map.png"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\images\\StaticPageimg\\image2.png",
+      "PackagePath": "staticwebassets\\images\\StaticPageimg\\image2.png"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\images\\Studentform_Image\\Student background img.jpg",
+      "PackagePath": "staticwebassets\\images\\Studentform_Image\\Student background img.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\images\\joanna-kosinska-7ACuHoezUYk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\joanna-kosinska-7ACuHoezUYk-unsplash.jpg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\images\\report_FILL0_wght400_GRAD0_opsz24.svg",
+      "PackagePath": "staticwebassets\\images\\report_FILL0_wght400_GRAD0_opsz24.svg"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\additional-methods.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\jquery-validation-sri.json",
+      "PackagePath": "staticwebassets\\jquery-validate\\jquery-validation-sri.json"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ar.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ar.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ar.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ar.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_az.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_az.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_az.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_az.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_bg.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_bg.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_bg.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_bg.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_bn_BD.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_bn_BD.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_bn_BD.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_bn_BD.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ca.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ca.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ca.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ca.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_cs.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_cs.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_cs.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_cs.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_da.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_da.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_da.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_da.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_de.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_de.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_de.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_de.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_el.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_el.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_el.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_el.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_es.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_es.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_es.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_es.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_es_AR.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_es_AR.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_es_AR.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_es_AR.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_es_PE.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_es_PE.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_es_PE.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_es_PE.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_et.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_et.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_et.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_et.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_eu.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_eu.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_eu.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_eu.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_fa.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_fa.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_fa.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_fa.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_fi.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_fi.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_fi.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_fi.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_fr.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_fr.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_fr.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_fr.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ge.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ge.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ge.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ge.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_gl.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_gl.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_gl.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_gl.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_he.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_he.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_he.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_he.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_hi.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_hi.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_hi.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_hi.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_hr.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_hr.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_hr.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_hr.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_hu.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_hu.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_hu.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_hu.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_hy_AM.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_hy_AM.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_hy_AM.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_hy_AM.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_id.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_id.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_id.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_id.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_is.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_is.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_is.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_is.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_it.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_it.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_it.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_it.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ja.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ja.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ja.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ja.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ka.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ka.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ka.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ka.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_kk.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_kk.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_kk.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_kk.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ko.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ko.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ko.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ko.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_lt.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_lt.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_lt.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_lt.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_lv.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_lv.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_lv.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_lv.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_mk.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_mk.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_mk.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_mk.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_my.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_my.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_my.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_my.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_nl.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_nl.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_nl.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_nl.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_no.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_no.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_no.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_no.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_pl.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_pl.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_pl.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_pl.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_pt_BR.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_pt_BR.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_pt_BR.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_pt_BR.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_pt_PT.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_pt_PT.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_pt_PT.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_pt_PT.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ro.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ro.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ro.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ro.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ru.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ru.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ru.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ru.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sd.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sd.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sd.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sd.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_si.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_si.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_si.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_si.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sk.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sk.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sk.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sk.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sl.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sl.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sl.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sl.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sr.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sr.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sr.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sr.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sr_lat.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sr_lat.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sr_lat.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sr_lat.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sv.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sv.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_sv.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_sv.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_th.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_th.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_th.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_th.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_tj.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_tj.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_tj.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_tj.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_tr.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_tr.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_tr.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_tr.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_uk.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_uk.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_uk.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_uk.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ur.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ur.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_ur.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_ur.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_vi.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_vi.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_vi.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_vi.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_zh.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_zh.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_zh.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_zh.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_zh_TW.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_zh_TW.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\messages_zh_TW.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\messages_zh_TW.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_de.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_de.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_de.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_de.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_es_CL.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_es_CL.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_es_CL.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_es_CL.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_fi.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_fi.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_fi.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_fi.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_it.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_it.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_it.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_it.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_nl.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_nl.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_nl.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_nl.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_pt.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_pt.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\jquery-validate\\localization\\methods_pt.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\localization\\methods_pt.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\js\\BindUsingApi.js",
+      "PackagePath": "staticwebassets\\js\\BindUsingApi.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\js\\DemoStudent.js",
+      "PackagePath": "staticwebassets\\js\\DemoStudent.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\js\\FileOperation.js",
+      "PackagePath": "staticwebassets\\js\\FileOperation.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\js\\FileUpload_JS.js",
+      "PackagePath": "staticwebassets\\js\\FileUpload_JS.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\js\\Index_ListPage.js",
+      "PackagePath": "staticwebassets\\js\\Index_ListPage.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\js\\Loginpage.js",
+      "PackagePath": "staticwebassets\\js\\Loginpage.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\js\\RegistrationPage.js",
+      "PackagePath": "staticwebassets\\js\\RegistrationPage.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\js\\StudentComplaintJS.js",
+      "PackagePath": "staticwebassets\\js\\StudentComplaintJS.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Visual studio\\Project1\\Project1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Project1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Project1.props",
+      "PackagePath": "build\\Project1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Project1.props",
+      "PackagePath": "buildMultiTargeting\\Project1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Project1.props",
+      "PackagePath": "buildTransitive\\Project1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

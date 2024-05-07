@@ -1,0 +1,21 @@
+﻿@model Project1.Models.Registration
+@{
+    Layout = null;
+}
+<h2>Create User</h2>
+<form asp-action="Create" asp-controller="User" method="post">
+    <label>Enter Name : </label>
+    <input type="text" id="name" name="name" />
+    <br />
+    <label>Enter Email Id : </label>
+    <input type="text" id="email" name="email" />
+    <br />
+    <label>Enter Password</label>
+    <input type="text" id="password" name="password" />
+    <br />
+    <label >Enter Confirm Password :</label>
+    <input type="text" id="Cpassword" name="Cpassword" />
+    <br />
+    <input type="submit" name="Save" />
+
+</form>

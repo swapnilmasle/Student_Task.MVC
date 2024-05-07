@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - File Upload</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="~/css/FileUpload.css" rel="stylesheet" />
+</head>
+<body>
+   
+     <div class="col-4" >
+        @* <form method="post" enctype="multipart/form-data" asp-controller="FileOperation" asp-action="FileUpload" id="Formid"> *@
+            <div  method="post" enctype="multipart/form-data" id="Formid"> 
+
+                <h2 align="center">File Upload</h2>
+                <div class="mb-3">
+              
+                    <input type="file" id="fileInput" name="filename" class="form-control" multiple /><br />
+                    <div>
+                        <div class="alert alert-danger" role="alert" id="BootStrapErroMsg">
+                            <span id="ErrorfileIcons" class="material-icons material-icons-outlined Iconcolor">error_outline</span>
+                            <span id="Errormesssagefile" class="text-danger textColor"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mb-3">
+                    <input type="submit" id="btnuploadfileId" value="Upload File" class="btn btn-primary" />
+                    <div id="Errormessagebutton"> </div>
+                </div>
+           
+               @*  <span id="SuccessMessage" class="text-success">
+                    @ViewBag.Message 
+                </span> *@
+            </div>
+       @*  </form> *@
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+       
+                            
+      
+
+
+    </div>
+
+   
+    <div class="modal fade" id="fileReplaceModal" tabindex="-1" role="dialog" aria-labelledby="fileReplaceModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fileReplaceModalLabel">File Replacement Options</h5>
+                    <b type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </b utton>
+                </div>
+                <div class="modal-body">
+                    <p>What would you like to do with the existing file?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="replaceBtn">Replace</button>
+                    <button type="button" class="btn btn-secondary" id="versionBtn">Save as New Version</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>         
+
+  
+    <div id="fileExistsPopup" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">File with the same name already exists</h5>
+                   @*  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> *@
+                </div>
+               @*  <div class="modal-body">
+                    <p>What would you like to do?</p>
+                </div> *@
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="replaceFileBtn">Replace</button>
+                    <button type="button" class="btn btn-secondary" id="saveNewVersionBtn">Save as New Version</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="Cancelbtn">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+   @*  <script src="~/css/Upload .js"></script> *@
+   
+<script src="~/js/fileupload_js.js"></script>
+</body>
+</html>
